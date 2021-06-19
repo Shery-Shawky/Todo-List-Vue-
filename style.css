@@ -1,0 +1,35 @@
+.card{
+    margin: 2rem auto;
+    box-shadow: 5px 10px 10px #899ac7;
+    width: 50%;
+}
+
+.card-header{
+    background-color: #0f7ce2;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+label{
+    color: #4e4c4c;
+}
+
+.value{
+    border: 1px solid #b4b4b4;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem 0rem;
+    background: white;
+}
+.checkbox{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+input[type=checkbox]{
+    transform: scale(2);
+}
+
+.isActive{
+    background-color: #0f7ce25d;
+  }
